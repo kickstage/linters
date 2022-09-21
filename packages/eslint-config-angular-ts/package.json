@@ -1,0 +1,31 @@
+{
+	"name": "@kickstage/eslint-config-angular-ts",
+	"version": "1.0.0",
+	"description": "Kickstage's ESLint Angular TypeScript rules",
+	"main": "index.js",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/kickstage/linters.git"
+	},
+	"author": "Ljubo Radoš <ljubo.rados@kickstage.com>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/kickstage/linters/issues"
+	},
+	"homepage": "https://github.com/kickstage/linters#readme",
+	"dependencies": {
+		"@kickstage/eslint-config-core-ts": "^1.0.0"
+	},
+	"peerDependencies": {
+		"eslint": ">=8.14",
+		"eslint-plugin-jasmine": ">=4",
+		"eslint-plugin-rxjs": ">=3",
+		"typescript": ">=3"
+	},
+	"devDependencies": {
+		"eslint": ">=8.14",
+		"eslint-plugin-jasmine": ">=4",
+		"eslint-plugin-rxjs": ">=3",
+		"typescript": ">=3"
+	}
+}

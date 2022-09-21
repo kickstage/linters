@@ -1,0 +1,29 @@
+{
+	"name": "@kickstage/eslint-config-nextjs-ts",
+	"version": "1.0.0",
+	"description": "Kickstage's ESLint NextJS TypeScript rules",
+	"main": "index.js",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/kickstage/linters.git"
+	},
+	"author": "Ljubo Radoš <ljubo.rados@kickstage.com>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/kickstage/linters/issues"
+	},
+	"homepage": "https://github.com/kickstage/linters#readme",
+	"dependencies": {
+		"@kickstage/eslint-config-react-ts": "^1.0.0"
+	},
+	"peerDependencies": {
+		"eslint": ">=8.14",
+		"typescript": ">=3.3.1"
+	},
+	"devDependencies": {
+		"eslint": ">=8.14",
+		"typescript": ">=3.3.1",
+		"eslint-config-next": "12.1.6",
+		"prettier": ">=2.6.2"
+	}
+}
