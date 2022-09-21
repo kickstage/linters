@@ -9,7 +9,7 @@ module.exports = {
 		node: true,
 	},
 	extends: [
-		'@kstg/eslint-config-core-js',
+		'@kickstage/eslint-config-core-js',
 		'plugin:@typescript-eslint/eslint-recommended',
 		'plugin:@typescript-eslint/recommended',
 	],
