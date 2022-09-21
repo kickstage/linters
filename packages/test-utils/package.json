@@ -1,6 +1,6 @@
 {
 	"name": "@kickstage/test-utils",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"main": "index.ts",
 	"author": "Ljubo Radoš <ljubo.rados@kickstage.com>",
 	"license": "MIT",

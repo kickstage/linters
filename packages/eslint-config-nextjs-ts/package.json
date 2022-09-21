@@ -1,6 +1,6 @@
 {
 	"name": "@kickstage/eslint-config-nextjs-ts",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Kickstage's ESLint NextJS TypeScript rules",
 	"main": "index.js",
 	"repository": {
@@ -14,7 +14,7 @@
 	},
 	"homepage": "https://github.com/kickstage/linters#readme",
 	"dependencies": {
-		"@kickstage/eslint-config-react-ts": "^1.0.0"
+		"@kickstage/eslint-config-react-ts": "^1.0.1"
 	},
 	"peerDependencies": {
 		"eslint": ">=8.14",
@@ -22,8 +22,8 @@
 	},
 	"devDependencies": {
 		"eslint": ">=8.14",
-		"typescript": ">=3.3.1",
 		"eslint-config-next": "12.1.6",
-		"prettier": ">=2.6.2"
+		"prettier": ">=2.6.2",
+		"typescript": ">=3.3.1"
 	}
 }
