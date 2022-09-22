@@ -21,5 +21,11 @@ module.exports = {
 		'no-underscore-dangle': ['error', { allowAfterThis: true }],
 		'no-void': 'error',
 		semi: 'error',
+		'no-unused-vars': [
+			'error',
+			{
+				ignoreRestSiblings: true,
+			},
+		],
 	},
 };
