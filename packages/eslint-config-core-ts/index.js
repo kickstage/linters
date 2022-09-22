@@ -31,10 +31,7 @@ module.exports = {
 		'@typescript-eslint/explicit-member-accessibility': [
 			'error',
 			{
-				accessibility: 'explicit',
-				overrides: {
-					constructors: 'no-public',
-				},
+				accessibility: 'no-public',
 			},
 		],
 		'@typescript-eslint/naming-convention': [
