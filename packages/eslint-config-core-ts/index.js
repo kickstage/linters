@@ -48,5 +48,11 @@ module.exports = {
 		'@typescript-eslint/no-inferrable-types': 'warn',
 		'@typescript-eslint/no-unused-vars': ['error', { argsIgnorePattern: '^_' }],
 		'@typescript-eslint/prefer-readonly': 'error',
+		'no-unused-vars': [
+			'error',
+			{
+				ignoreRestSiblings: true,
+			},
+		],
 	},
 };
