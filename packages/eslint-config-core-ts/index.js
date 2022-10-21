@@ -48,5 +48,18 @@ module.exports = {
 		'@typescript-eslint/no-inferrable-types': 'warn',
 		'@typescript-eslint/no-unused-vars': ['error', { argsIgnorePattern: '^_' }],
 		'@typescript-eslint/prefer-readonly': 'error',
+		'@typescript-eslint/member-delimiter-style': [
+			'error',
+			{
+				multiline: {
+					delimiter: 'semi',
+					requireLast: true,
+				},
+				singleline: {
+					delimiter: 'comma',
+					requireLast: false,
+				},
+			},
+		],
 	},
 };
