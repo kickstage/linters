@@ -22,6 +22,7 @@ module.exports = {
 		'no-underscore-dangle': ['error', { allowAfterThis: true }],
 		'no-void': 'error',
 		semi: 'error',
+		'new-parens': 'error',
 		'no-unused-vars': [
 			'error',
 			{
