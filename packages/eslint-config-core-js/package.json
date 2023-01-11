@@ -1,6 +1,6 @@
 {
 	"name": "@kickstage/eslint-config-core-js",
-	"version": "1.0.6",
+	"version": "1.0.7",
 	"description": "Kickstage's ESLint core rules",
 	"main": "index.js",
 	"repository": {
