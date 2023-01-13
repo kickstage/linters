@@ -36,5 +36,6 @@ module.exports = {
 				ignoreRestSiblings: true,
 			},
 		],
+		'sort-imports': ['error'],
 	},
 };
