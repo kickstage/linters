@@ -9,7 +9,7 @@
 	},
 	"scripts": {
 		"test": "uvu -r @swc-node/register __tests__",
-		"test:watch": "watchlist src -- npm run test"
+		"test:watch": "watchlist . -- npm run test"
 	},
 	"author": "Ljubo Radoš <ljubo.rados@kickstage.com>",
 	"license": "MIT",
@@ -26,5 +26,8 @@
 		"eslint": ">=8.14",
 		"uvu": "^0.5.6",
 		"watchlist": "^0.3.1"
+	},
+	"dependencies": {
+		"eslint-plugin-unused-imports": "^2.0.0"
 	}
 }

@@ -9,6 +9,7 @@ module.exports = {
 		node: true,
 	},
 	extends: ['eslint:recommended'],
+	plugins: ['unused-imports'],
 	parserOptions: {
 		ecmaVersion: 2018,
 		sourceType: 'module',
@@ -23,9 +24,15 @@ module.exports = {
 		'no-void': 'error',
 		semi: 'error',
 		'new-parens': 'error',
-		'no-unused-vars': [
+		'no-unused-vars': 'off',
+		'unused-imports/no-unused-imports': 'error',
+		'unused-imports/no-unused-vars': [
 			'error',
 			{
+				vars: 'all',
+				varsIgnorePattern: '^_',
+				args: 'after-used',
+				argsIgnorePattern: '^_',
 				ignoreRestSiblings: true,
 			},
 		],
