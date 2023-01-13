@@ -37,5 +37,6 @@ module.exports = {
 			},
 		],
 		'sort-imports': ['error'],
+		'padded-blocks': ['error', 'never'],
 	},
 };
