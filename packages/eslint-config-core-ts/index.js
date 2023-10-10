@@ -61,5 +61,7 @@ module.exports = {
 				},
 			},
 		],
+		'@typescript-eslint/no-base-to-string': 'warn',
+		'@typescript-eslint/strict-boolean-expressions': 'warn',
 	},
 };
