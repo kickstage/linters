@@ -28,5 +28,6 @@ module.exports = {
 		'react-hooks/exhaustive-deps': 'error',
 		'no-param-reassign': 'warn',
 		'consistent-return': 'warn',
+		'react/require-default-props': 'off',
 	},
 };
