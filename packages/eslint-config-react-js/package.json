@@ -1,6 +1,6 @@
 {
 	"name": "@kickstage/eslint-config-react-js",
-	"version": "1.0.9",
+	"version": "1.0.11",
 	"description": "Kickstage's ESLint React rules",
 	"main": "index.js",
 	"repository": {
